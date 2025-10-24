@@ -1,1 +1,1 @@
-Открой макет по адресу https://kochapuppey.github.io/kochkin/
+Откройте макет по адресу https://kochapuppey.github.io/kochkin/
