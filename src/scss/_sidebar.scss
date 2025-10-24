@@ -116,8 +116,13 @@ button {
 }
 
 .sidebar__contacts {
-  margin-top: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:50px;
+  margin-top:50px;
   .contacts_call{
+    display: flex;
     margin-left:19px;
     margin-right: 16px;
     background-image: url("../img/call.svg");
@@ -126,6 +131,7 @@ button {
     height: 41.35px;
   }
   .contacts_chat {
+    display: flex;
     margin-right: 16px;
     background-image: url("../img/chat.svg");
     background-repeat: no-repeat;
@@ -133,6 +139,7 @@ button {
     height: 41.35px;
   }
   .contacts_profile {
+    display: flex;
     background-image: url("../img/profile.svg");
     background-repeat: no-repeat;
     width: 40px;
@@ -163,7 +170,14 @@ button {
     margin-top: 40px;
   }
 }
-
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.floor-flex {
+  display: flex;
+  flex-direction: column;
+}
 .sidebar__contacts button:hover {
   filter: grayscale(80%);
 }
